@@ -1,0 +1,465 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+    <!--============================= SUBPAGE HEADER BG =============================-->
+
+    <section class="subpage-bg">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="title-block title-block_subpage">
+                        <h2>Listinq əlavə et</h2>
+                        <p> <a href="index.html"> Əsas səhifə</a> /Listinq əlavə et</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--// SUBPAGE HEADER BG -->
+    <!--============================= ADD LISTING =============================-->
+
+    <section class="main-block">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="listing-wrap">
+                        <form action="#">
+                            <!-- General Information -->
+                            <div class="listing-title">
+                                <span class="ti-files"></span>
+                                <h4>Ümumi məlumat</h4>
+                                <p>Listinq haqqında ümumi məlumat yazın</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Listinq Title</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Açar Söz</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Kateqoriya</label>
+                                        <select class="form-control add-listing_form">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Veb səhifə</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//End General Information -->
+                            <!-- Add Location -->
+                            <div class="listing-title">
+                                <span class="ti-location-pin"></span>
+                                <h4>Lokasiya əlavə et</h4>
+                                <p>Listinq haqqında ümumi məlumat yazın</p>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Ünvan</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Müvəqqəti ünvan</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Şəhər</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Ştat</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Ölkə</label>
+                                        <select class="form-control bfh-countries" data-country="US"></select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Poçt indeksi</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//End Add Location -->
+                            <!-- Full Details -->
+                            <div class="listing-title">
+                                <span class="ti-location-pin"></span>
+                                <h4>Bütün detallar</h4>
+                                <p>Listinq haqqında ümumi məlumat yazın</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Sahibkarın adı</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>E-poçt</label>
+                                        <input type="email" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Telefon</label>
+                                        <input type="number" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Veb səhifə</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Owner Designation</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Şirkət</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Facebook səhifəsi</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Twitter İstifadəçisi</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Google Plus</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>LinkedIn</label>
+                                        <input type="text" class="form-control add-listing_form">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Description</label>
+                                        <textarea class="form-control add-listing_form" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//End Full Details -->
+                            <!-- Add Gallery -->
+                            <!--<div class="listing-title">
+                                <span class="ti-gallery"></span>
+                                <h4>Add Gallery</h4>
+                                <p>Write Something General Information About Your Listing</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="custom-file">
+                                        <div class="add-gallery-text">
+                                            <i class="ti-gallery"></i>
+                                            <span>Drag &amp; Drop To Change Logo</span>
+                                        </div>
+                                        <input type="file" class="custom-file-input" id="customFile">
+                                    </div>
+                                </div>
+                            </div>-->
+                            <!--//End Add Gallery -->
+                            <!-- Amenities -->
+                            <div class="listing-title">
+                                <span class="ti-gift"></span>
+                                <h4>Özəlliklər</h4>
+                                <p>Listinq haqqında ümumi məlumat yazın</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i1" type="checkbox">
+                                        <label for="i1">Alarm sistemi</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i2" type="checkbox">
+                                        <label for="i2">Çamaşırxana</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i3" type="checkbox">
+                                        <label for="i3">Lift</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i4" type="checkbox">
+                                        <label for="i4">Depanneur in building</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i5" type="checkbox">
+                                        <label for="i5">Qapıçı</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i6" type="checkbox">
+                                        <label for="i6">İnvalid kreslosu</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i7" type="checkbox">
+                                        <label for="i7">Məkan menecmenti </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i8" type="checkbox">
+                                        <label for="i8">Küçədə parkinq</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i9" type="checkbox">
+                                        <label for="i9">İstilik sistemi</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i11" type="checkbox">
+                                        <label for="i11"> Xadimə</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i12" type="checkbox">
+                                        <label for="i12"> Intercom  </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i13" type="checkbox">
+                                        <label for="i13">İsti su</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i14" type="checkbox">
+                                        <label for="i14">Təhlükəsizlik kameraları</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i15" type="checkbox">
+                                        <label for="i15">Qaraj</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 responsive-wrap">
+                                    <div class="md-checkbox">
+                                        <input id="i16" type="checkbox">
+                                        <label for="i16">Elektrik</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//End Amenities -->
+                            <!-- Opening Hours -->
+                            <div class="listing-title">
+                                <span class="ti-time"></span>
+                                <h4>Açılış saatları</h4>
+                                <p>Listinq haqqında ümumi məlumat yazın</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <label class="listing-time">Həftəiçi</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Opening Time</option>
+                                            <option>1 :00 AM</option>
+                                            <option>2 :00 AM</option>
+                                            <option>3 :00 AM</option>
+                                            <option>4 :00 AM</option>
+                                            <option>5 :00 AM</option>
+                                            <option>6 :00 AM</option>
+                                            <option>7 :00 AM</option>
+                                            <option>8 :00 AM</option>
+                                            <option>9 :00 AM</option>
+                                            <option>10 :00 AM</option>
+                                            <option>11 :00 AM</option>
+                                            <option>12 :00 AM</option>
+                                            <option>1 :00 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Bağlanma saatları</option>
+                                            <option>1 :00 AM</option>
+                                            <option>2 :00 AM</option>
+                                            <option>3 :00 AM</option>
+                                            <option>4 :00 AM</option>
+                                            <option>5 :00 AM</option>
+                                            <option>6 :00 AM</option>
+                                            <option>7 :00 AM</option>
+                                            <option>8 :00 AM</option>
+                                            <option>9 :00 AM</option>
+                                            <option>10 :00 AM</option>
+                                            <option>11 :00 AM</option>
+                                            <option>12 :00 AM</option>
+                                            <option>1 :00 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <label class="listing-time">Həftəsonları</label>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Açılış saatları</option>
+                                            <option>1 :00 AM</option>
+                                            <option>2 :00 AM</option>
+                                            <option>3 :00 AM</option>
+                                            <option>4 :00 AM</option>
+                                            <option>5 :00 AM</option>
+                                            <option>6 :00 AM</option>
+                                            <option>7 :00 AM</option>
+                                            <option>8 :00 AM</option>
+                                            <option>9 :00 AM</option>
+                                            <option>10 :00 AM</option>
+                                            <option>11 :00 AM</option>
+                                            <option>12 :00 AM</option>
+                                            <option>1 :00 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Bağlanma saatları</option>
+                                            <option>1 :00 AM</option>
+                                            <option>2 :00 AM</option>
+                                            <option>3 :00 AM</option>
+                                            <option>4 :00 AM</option>
+                                            <option>5 :00 AM</option>
+                                            <option>6 :00 AM</option>
+                                            <option>7 :00 AM</option>
+                                            <option>8 :00 AM</option>
+                                            <option>9 :00 AM</option>
+                                            <option>10 :00 AM</option>
+                                            <option>11 :00 AM</option>
+                                            <option>12 :00 AM</option>
+                                            <option>1 :00 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="btn-wrap btn-wrap2">
+                                        <a href="#" class="btn btn-simple">Listinqi əlavə et</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//End Opening Hours -->
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--//END ADD LISTING -->
+    <!--============================= FOOTER =============================-->
+
+</body>
+</html>
+

@@ -10,15 +10,16 @@ namespace Travelguide.Controllers
     public class HomeController : Controller
     {
         private readonly TravelGuideContext db = new TravelGuideContext();
+
         public ActionResult Index()
         {
             return View();
         }
-
-
-
+        
+        
         //User entry into the webpage
-        public ActionResult Login(Users user)
+        [HttpPost]
+        public ActionResult Login(User user)
         {
             if (string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
             {
@@ -26,7 +27,7 @@ namespace Travelguide.Controllers
                 return RedirectToAction("index");
             }
 
-            Users lgn = db.User.FirstOrDefault(u => u.Email == user.Email);
+            User lgn = db.Users.FirstOrDefault(u => u.Email == user.Email);
 
             if (lgn != null)
             {
@@ -41,5 +42,14 @@ namespace Travelguide.Controllers
             Session["LoginError"] = "E-poçt və ya şifrə yalnışdır";
             return RedirectToAction("index");
         }
+
+        //Adding a new listing
+
+        public ActionResult Create()
+        {
+            return View();
+        }
     }
+
+
 }

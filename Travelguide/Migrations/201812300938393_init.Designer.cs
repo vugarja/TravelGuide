@@ -13,7 +13,7 @@ namespace Travelguide.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201812261752361_init"; }
+            get { return "201812300938393_init"; }
         }
         
         string IMigrationMetadata.Source

@@ -15,6 +15,10 @@ namespace Travelguide.DAL
 
         }
 
-        public DbSet<Users> User { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Models.Action> Actions { get; set; }
+        public DbSet<Group> Groups { get; set; }
+        public DbSet<Role> Roles{ get; set; }
+
     }
 }

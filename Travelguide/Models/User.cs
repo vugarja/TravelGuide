@@ -6,17 +6,25 @@ using System.Web;
 
 namespace Travelguide.Models
 {
-    public class Users
+    public class User
     {
         public int Id { get; set; }
 
-        [StringLength(50)]
+        [Required]
+        public bool Status { get; set; }
+
+        [StringLength(50), Required]
         public string Username { get; set; }
 
-        [StringLength(50)]
+        [StringLength(50), Required]
         public string Email { get; set; }
 
-        [StringLength(100)]
+        [StringLength(100), Required]
         public string Password { get; set; }
+
+        [Required]
+        public int GroupId { get; set; }
+
+        public Group Group { get; set; }
     }
 }
