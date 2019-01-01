@@ -10,9 +10,6 @@ namespace Travelguide.Models
     {
         public int Id { get; set; }
 
-        [Required]
-        public bool Status { get; set; }
-
         [StringLength(50), Required]
         public string Username { get; set; }
 
@@ -22,9 +19,8 @@ namespace Travelguide.Models
         [StringLength(100), Required]
         public string Password { get; set; }
 
-        [Required]
-        public int GroupId { get; set; }
-
-        public Group Group { get; set; }
+        public List<Place> Places { get; set; }
+        public List<Comment> Comments { get; set; }
+        public List<Reaction> Reactions { get; set; }
     }
 }

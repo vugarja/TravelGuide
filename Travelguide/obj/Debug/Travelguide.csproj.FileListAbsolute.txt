@@ -46,3 +46,4 @@ c:\users\vugarja\source\repos\Travelguide\Travelguide\obj\Debug\Travelguide.dll
 c:\users\vugarja\source\repos\Travelguide\Travelguide\obj\Debug\Travelguide.pdb
 C:\Users\vugarja\source\repos\Travelguide\Travelguide\obj\Debug\Travelguide.Migrations.init.resources
 C:\Users\vugarja\source\repos\Travelguide\Travelguide\obj\Debug\Travelguide.csproj.GenerateResource.Cache
+C:\Users\vugarja\source\repos\Travelguide\Travelguide\obj\Debug\Travelguide.Migrations.all.resources

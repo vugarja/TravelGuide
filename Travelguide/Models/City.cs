@@ -6,15 +6,16 @@ using System.Web;
 
 namespace Travelguide.Models
 {
-    public class Group
+    public class City
     {
-        public int id { get; set; }
+        public int Id { get; set; }
 
-        [StringLength(50), Required]
+        [StringLength(50)]
         public string Name { get; set; }
 
-        public List<User> Users { get; set; }
+        [StringLength(200)]
+        public string Photo { get; set; }
 
-        public List<Role> Roles { get; set; }
+        public List<Place> Places { get; set; }
     }
 }

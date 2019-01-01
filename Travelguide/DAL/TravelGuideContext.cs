@@ -14,11 +14,17 @@ namespace Travelguide.DAL
         {
 
         }
-
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<CategoryService> CategoryServices { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<CommentPhoto> CommentPhotos { get; set; }
+        public DbSet<Photo> Photos{ get; set; }
+        public DbSet<Place> Places { get; set; }
+        public DbSet<PlaceService> PlaceServices { get; set; }
+        public DbSet<Reaction> Reactions { get; set; }
+        public DbSet<Service> Services{ get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Models.Action> Actions { get; set; }
-        public DbSet<Group> Groups { get; set; }
-        public DbSet<Role> Roles{ get; set; }
-
+        public DbSet<WorkHour> WorkHours { get; set; }
     }
 }

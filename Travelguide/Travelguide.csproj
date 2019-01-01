@@ -157,11 +157,23 @@
     <Compile Include="Migrations\201812300938393_init.Designer.cs">
       <DependentUpon>201812300938393_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901011500580_all.cs" />
+    <Compile Include="Migrations\201901011500580_all.Designer.cs">
+      <DependentUpon>201901011500580_all.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Action.cs" />
-    <Compile Include="Models\Group.cs" />
-    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\CategoryService.cs" />
+    <Compile Include="Models\City.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\CommentPhoto.cs" />
+    <Compile Include="Models\Photo.cs" />
+    <Compile Include="Models\Place.cs" />
+    <Compile Include="Models\PlaceService.cs" />
+    <Compile Include="Models\Reaction.cs" />
+    <Compile Include="Models\Service.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\WorkHour.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -213,6 +225,7 @@
     <Content Include="Public\js\jquery-3.2.1.min.js" />
     <Content Include="Public\js\jquery.magnific-popup.js" />
     <Content Include="Public\js\jquery.min.js" />
+    <Content Include="Public\js\main.js" />
     <Content Include="Public\js\owl.carousel.js" />
     <Content Include="Public\js\popper.min.js" />
     <Content Include="Public\js\script.js" />
@@ -260,6 +273,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812300938393_init.resx">
       <DependentUpon>201812300938393_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901011500580_all.resx">
+      <DependentUpon>201901011500580_all.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
